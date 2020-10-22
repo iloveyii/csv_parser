@@ -7,6 +7,7 @@ This is a small web application built in PHP which is required to upload csv fil
 ## TASK Division
  This task has the following sub tasks.
 #### Form submission
+- When the user submits form, return html table or show errors to user.
 
 
 
@@ -25,10 +26,4 @@ This is a small web application built in PHP which is required to upload csv fil
 - Using a PHP based web serve, serve public directory as root.
 - For convenience you can php built web server inside public dirctory as :
 `php -S localhost:8080 `
-
-
-
-
-
-## RUN
 
