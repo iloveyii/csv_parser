@@ -14,6 +14,7 @@ This is a small web application built in PHP which is required to upload csv fil
 #### Validate form
 - Email : email should be validated
 - Name : name should be validated
+- File : uploading file should be validated
 
 
 
