@@ -12,8 +12,8 @@ ini_set('display_errors', 0);
 ini_set('display_startup_errors', 0);
 error_reporting(0);
 
-//
-$FILE_SIZE_THRESHOLD = 1024 * 500;      // 500 MB
+
+$FILE_SIZE_THRESHOLD = 1024 * 500;      // 500 KB
 $ALLOWED_FILE_TYPES = ['text/plain'];   // Actual file format
 $ALLOWED_FILE_EXTENSIONS = ['csv'];     // extensions allowed
 $TARGET_DIRECTORY = '../csv_files/';     // Target directory where to save csf uploaded files
@@ -194,6 +194,7 @@ function handleFormSubmit()
 
 ?>
 
+<!-- include html header part -->
 <?php require_once('./inc/header.php') ?>
 
 <body class="text-center">
@@ -201,7 +202,7 @@ function handleFormSubmit()
         <div class="row">
             <div class="col-md-12">
                 <?php $bodyHtml = handleFormSubmit(); ?>
-                <a class="btn btn-success" href="/">Back</a>
+                <a class="btn btn-success mb-3" href="/">Back</a>
                 <?php if (count($errors) == 0) : ?>
                     <h3>CSV File Data</h3>
                     <p>Name : <?php echo $_POST['name']; ?></p>
@@ -222,4 +223,5 @@ function handleFormSubmit()
     </div>
 </body>
 
+<!-- include html footer part -->
 <?php require_once('./inc/footer.php') ?>
