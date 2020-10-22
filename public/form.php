@@ -9,8 +9,8 @@
     <input type="text" name="name" id="inputName" class="form-control" placeholder="Enter your full name" required/>
 
     <label for="inputCsv" class="sr-only">CSV file</label>
-    <input type="file" name="csv_file" id="inputCsv" class="form-control"  placeholder="Choose csv file"
-    required />
+    <input type="file" name="csv_file" id="inputCsv" class="form-control" placeholder="Choose a csv file"
+           required/>
 
     <button class="btn btn-lg btn-primary btn-block" type="submit">Upload</button>
 </form>
