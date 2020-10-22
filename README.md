@@ -21,7 +21,10 @@ This is a small web application built in PHP which is required to upload csv fil
 
 
 ## INSTALLATION
-
+- Clone repo
+- Using a PHP based web serve, serve public directory as root.
+- For convenience you can php built web server inside public dirctory as :
+`php -S localhost:8080 `
 
 
 
