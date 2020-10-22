@@ -23,7 +23,7 @@ This is a small web application built in PHP which is required to upload csv fil
 
 
 ## INSTALLATION
-- Clone repo
+- Clone repo `git clone https://github.com/iloveyii/csv_parser.git`
 - Using a PHP based web serve, serve public directory as root.
 - For convenience you can php built web server inside public dirctory as :
 `php -S localhost:8080 `
