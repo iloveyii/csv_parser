@@ -144,7 +144,7 @@ function handleFormSubmit()
         validateForm();
 
         // File name for the uploading file
-        $fileName = sprintf("%s%s", $TARGET_DIRECTORY, basename($_FILES['csv_file']['name']));
+        $fileName = sprintf("%s%s_%s", $TARGET_DIRECTORY, uniqid(), basename($_FILES['csv_file']['name']));
 
 
         // Check that file size does not exceed the limit - $FILE_SIZE_THRESHOLD

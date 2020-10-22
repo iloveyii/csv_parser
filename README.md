@@ -30,7 +30,7 @@ This is a small web application built in PHP which is required to upload csv fil
 - Test with the existing files in directory `test_data`
 
 ## ASSUMPTIONS
-- We intentionally did not use php short tags `<?= $var ?>` as it is not configured on servers be default.
+- We intentionally did not use php short tags `<?= $var ?>` as it is not configured on servers by default.
 - We intentionally did not use classes to stick to task description.
 - We did not use any backend or frontend frameworks like laravel, react, material ui to keep the task simple, 
 and do more manual programming.
