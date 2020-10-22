@@ -27,4 +27,4 @@ This is a small web application built in PHP which is required to upload csv fil
 - Using a PHP based web server, serve public directory as root.
 - For convenience you can use php builtin web server inside public directory as :
 `php -S localhost:8080 `
-
+- Test with the existing files in directory `test_data`
