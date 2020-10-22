@@ -11,7 +11,6 @@ ini_set('display_errors', 0);
 ini_set('display_startup_errors', 0);
 error_reporting(0);
 
-echo $rrr;
 $FILE_SIZE_THRESHOLD = 1024 * 500;
 $ALLOWED_FILE_TYPES = ['text/plain'];
 $ALLOWED_FILE_EXTENSIONS = ['csv'];
