@@ -1,6 +1,7 @@
 <form class="form-upload" action="/form-handler.php" method="post" enctype="multipart/form-data">
-    <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72"
-         height="72">
+
+    <img src="https://uploads-ssl.webflow.com/5d30e6ed779cc86e5454596e/5d30ec774a82c65174e55492_leadpilot_color.svg" height="24" width="150" alt="" class="image-12">
+
     <h1 class="h3 mb-3 font-weight-normal">Please fill the form</h1>
     <label for="inputEmail" class="sr-only">Email</label>
     <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required

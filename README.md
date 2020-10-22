@@ -19,7 +19,7 @@ This is a small web application built in PHP which is required to upload csv fil
 
 
 #### Parse CSV 
-- Parse csv file without using building in methods
+- Parse csv file without using builtin methods
 
 
 ## INSTALLATION
